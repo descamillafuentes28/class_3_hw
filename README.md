@@ -1,11 +1,8 @@
-# Class 3 Homework 
+# Class 3 Homework -- Get the change for the S&P 500 for each day
 
 ## Directions
 
-### 1. Split this array up based on the data type
-### 2. Sort each Array
-- Numbers by lowest to highest
-- Strings by alphabetical order
-- Booleans by True -> false
-
-### 3. Console log all three arrays
+### 1. Write a loop that goes through the array
+### 2. Calculate the day over day change 
+### 3. Push the change, along with the date to an array
+### 4. Console log the resulting array
