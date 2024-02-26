@@ -20,6 +20,17 @@ let snp_data = [{"Date":"2/16/24","Close":5005.57},{"Date":"2/15/24","Close":502
 
 let day_change = [];
 
+/* console.log(snp_data[0].Date); */
+
+for (let i= 0; i<9; i++){
+    let new_v = i+1
+    let subtract = snp_data[i].Close - snp_data[i+1].Close
+    console.log(subtract);
+    day_change.push({
+     "Date": snp_data[i].Date,
+     change: subtract.toFixed(2)  
+    })
+}
 
 console.log(day_change); 
 
